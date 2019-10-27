@@ -15,6 +15,7 @@ module.exports = {
     minimize: false
   },
   output: {
+    libraryTarget: 'commonjs2',
     // Puts the output at the root of the dist folder
     path: path.join(__dirname, 'dist'),
     filename: '[name].js'
